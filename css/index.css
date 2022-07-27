@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#start_box {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+#start_box img {
+    width: 45%;
+    height: 95%;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+#start_box h2 {
+    width: 0ch;
+    color: white;
+    font-size: 36px;
+    overflow: hidden;
+    margin: auto;
+    white-space: nowrap;
+    animation: text 4s ease forwards;
+    border-right: 3px solid white;
+}
+
+.count_section {
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.c1 {
+    width: 300px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.number {
+    font-size: 70px;
+    padding: 20px 0px;
+}
+
+
+/*search form*/
+
+.tb {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tb table {
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.table thead tr th,
+td {
+    border: 1px solid black;
+}
+
+@keyframes text {
+    0% {
+        width: 0ch;
+    }
+    50% {
+        width: 32ch;
+    }
+    100% {
+        width: 32ch;
+        border: none;
+    }
+}
+
+
+/*responsive*/
+
+@media(max-width:375px) {
+    #start_box {
+        height: 50vh;
+    }
+    #start_box img {
+        position: absolute;
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    #start_box h2 {
+        font-size: 18px;
+    }
+    .count_section {
+        height: auto;
+    }
+    .c1 {
+        padding-top: 100px;
+    }
+    .number {
+        font-size: 40px;
+        padding: 20px 0px;
+    }
+}
+
+@media (min-width:375px) and (max-width:679px) {
+    #start_box {
+        height: 50vh;
+    }
+    #start_box img {
+        display: none;
+    }
+    #start_box h2 {
+        font-size: 20px;
+    }
+    .count_section {
+        height: auto;
+    }
+    .c1 {
+        padding-top: 100px;
+    }
+    .number {
+        font-size: 40px;
+        padding: 20px 0px;
+    }
+}
+
+@media(min-width:679px) and (max-width:974px) {
+    #start_box {
+        height: 50vh;
+    }
+    #start_box img {
+        display: none;
+    }
+    #start_box h2 {
+        margin: auto;
+    }
+}

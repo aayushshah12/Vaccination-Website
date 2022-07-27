@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.box {
+    width: 70%;
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto 10px auto;
+    box-shadow: 0px 0px 5px black;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    flex-wrap: nowrap;
+}
+
+.button1 {
+    padding: 10px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border: none;
+    font-size: 24px;
+    color: white;
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+
+.button1:hover {
+    background-color: #ffffff!important;
+    color: #0d6efd!important;
+}
+
+
+/* Radio button css */
+
+.radiobtn {
+    margin-left: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.box1 {
+    width: 100%;
+    padding: 20px 50px;
+    margin-bottom: 10px;
+}
+
+.line1 {
+    width: 30%;
+    height: 5px;
+    background-color: #0d6efd !important;
+    display: block;
+}

@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.box {
+    margin: 50px auto 0px auto;
+    width: 42%;
+    box-sizing: border-box;
+    background: white;
+    padding: 50px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    border-radius: 0.625rem;
+    box-shadow: 0px 0px 8px black;
+}
+
+.vaccine {
+    margin: 90px auto 0px auto;
+    width: 80%;
+    box-sizing: border-box;
+    background: #000;
+    opacity: 0.5;
+    padding: 50px;
+    border-radius: 0.625rem;
+}
+
+.box h2 {
+    margin: 20px 0 1.875rem;
+    padding: 0;
+    color: black;
+    text-align: center;
+}
+
+.box .inputBox {
+    position: relative;
+}
+
+.box .inputBox input {
+    width: 100%;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    color: black;
+    letter-spacing: 0.062rem;
+    margin-bottom: 1.875rem;
+    border: none;
+    border-bottom: 0.065rem solid black;
+    outline: none;
+    background: transparent;
+}
+
+.box .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 6%;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: 0.5s;
+    color: black;
+}
+
+.box .inputBox input:focus~label,
+.box .inputBox input:valid~label,
+.box .inputBox input:not([value=""])~label {
+    top: -1.125rem;
+    left: 0px;
+    color: black;
+    font-size: 0.75rem;
+}
+
+.box input[type="submit"] {
+    border: none;
+    outline: none;
+    color: #fff;
+    /* background-color: #03a9f4; */
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 1rem;
+}
+
+.box input[type="submit"]:hover {
+    background-color: #1cb1f5;
+}
+
+.user-img img {
+    height: 120px;
+    width: 120px;
+}
+
+.user-img {
+    margin-top: -80px;
+    margin-bottom: 45px;
+}
+
+.user-img {
+    text-align: center;
+}
+
+.box .inputBox select {
+    width: 100%;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    letter-spacing: 0.062rem;
+    margin-bottom: 1.875rem;
+    border: none;
+    border-bottom: 0.065rem solid #000;
+    outline: none;
+    background: transparent;
+}
+
+option {
+    background: transparent;
+    color: black;
+}
+
+label {
+    color: black;
+}
+
+
+/* .vaccine_stock {
+  background-color:#E24c00;
+  margin-top: 50px;
+  max-width: 80%;
+} */

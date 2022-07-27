@@ -1,0 +1,202 @@
+/* login css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.box {
+    margin: 50px auto 0px auto;
+    width: 42%;
+    box-sizing: border-box;
+    background: white;
+    padding: 50px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    border-radius: 0.625rem;
+    box-shadow: 0px 0px 8px black;
+}
+
+.box h2 {
+    margin: 0 0 1.875rem;
+    padding: 0px;
+    color: black;
+    text-align: center;
+}
+
+.box .inputBox {
+    position: relative;
+}
+
+.box .inputBox input {
+    width: 100%;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    color: black;
+    letter-spacing: 0.062rem;
+    margin-bottom: 1.875rem;
+    border: none;
+    border-bottom: 0.065rem solid black;
+    outline: none;
+    background: transparent;
+}
+
+.box .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    color: black;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.box .inputBox input:focus~label,
+.box .inputBox input:valid~label,
+.box .inputBox input:not([value=""])~label {
+    top: -1.125rem;
+    left: 0;
+    color: black;
+    font-size: 0.75rem;
+}
+
+.box input[type="submit"] {
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #03a9f4;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 1rem;
+}
+
+.box input[type="submit"]:hover {
+    background-color: #1cb1f5;
+}
+
+.forPass a {
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.forPass a:hover {
+    color: #fff;
+}
+
+.user-img img {
+    height: 120px;
+    width: 120px;
+}
+
+.user-img {
+    margin-top: -80px;
+    margin-bottom: 45px;
+}
+
+.user-img {
+    text-align: center;
+}
+
+.box .inputBox select {
+    width: 100%;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 0.062rem;
+    margin-bottom: 1.875rem;
+    border: none;
+    border-bottom: 0.065rem solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+option {
+    background: transparent;
+    color: black;
+}
+
+.otpbutton {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 100%;
+        padding: 20px;
+    }
+}
+.box {
+    margin: 40px auto 0px auto;
+    width: 35%;
+    box-sizing: border-box;
+    background: white;
+    padding: 30px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+
+}
+
+
+.box .inputBox label {
+    color: black;
+}
+
+.box .inputBox input {
+    color: black;
+    border-bottom: 0.065rem solid black;
+}
+
+.box .inputBox input:focus~label,
+.box .inputBox input:valid~label,
+.box .inputBox input:not([value=""])~label {
+    top: -1.125rem;
+    left: 0px;
+    color: black;
+    font-size: 0.75rem;
+}
+
+.icon {
+    text-align: center;
+
+}
+
+.icon i {
+    margin: 20px 10px 20px 10px;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    color: white;
+    border-radius: 50px;
+}
+
+/* .user_imge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    width: 30%;
+    height: 18vh;
+    background-color: yellow;
+    border-radius: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    transform: translateY(-80px);
+}
+.profile i{
+    font-size: 3rem;
+} */

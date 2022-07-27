@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.box1 {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info1 {
+    display: flex;
+    align-items: center;
+}
+
+.info1 p {
+    padding-top: px;
+}
+
+.info2 input[type='text'] {
+    width: 220px;
+    height: 48px;
+    border: 2px solid black;
+    padding-left: 10px;
+}
+
+.btn1 {
+    padding: 0px 5px;
+    border: none;
+    border-radius: 0px;
+    margin-left: 20px;
+    background-color: rgb(0, 140, 255);
+    padding: 11px 9px;
+    color: white;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.btn1:hover {
+    background-color: rgb(0, 60, 255);
+    box-shadow: 1px 1px 3px black;
+    color: white;
+}
+
+.btn2 {
+    width: 150px;
+    border: none;
+    background-color: rgb(0, 140, 255);
+    padding: 10px 9px;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.btn2:hover {
+    background-color: rgb(0, 60, 255);
+    box-shadow: 1px 1px 3px black;
+}
+
+.box2 {
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.table th {
+    font-size: 16px;
+    text-align: center;
+    table-layout: fixed;
+}
+
+.table td {
+    font-size: 14px;
+    text-align: center;
+}
